@@ -7,3 +7,8 @@ show databases;
 DROP DATABASE bigtest1;
 --- go inside particular DATABASE
 use Bigdatabootcamp;
+CREATE TABLE if NOT exists employee1
+( emp_id int,
+emp_Name VARCHAR(50));
+---- list down all table under database
+show create table employee1;
