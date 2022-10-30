@@ -1,0 +1,9 @@
+---create database command
+create DATABASE Bigdatabootcamp;
+create DATABASE bigtest1;
+----- Get list of database:
+show databases;
+----- Drop the database:
+DROP DATABASE bigtest1;
+--- go inside particular DATABASE
+use Bigdatabootcamp;
